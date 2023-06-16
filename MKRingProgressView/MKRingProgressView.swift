@@ -77,7 +77,7 @@ open class RingProgressView: UIView {
     
     /// The opacity of the shadow below progress line end. Defaults to `1.0`.
     /// Values outside the [0,1] range will be clamped.
-    @IBInspectable open var shadowOpacity: CGFloat {
+    @IBInspectable open var endShadowOpacity: CGFloat {
         get {
             return ringProgressLayer.endShadowOpacity
         }
